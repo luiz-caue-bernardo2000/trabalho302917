@@ -20,5 +20,6 @@ footer{
 }
 #container{
     margin: 4rem;
-    padding: 4rem;
+    display: flex;
+    gap: 3rem;
 }
