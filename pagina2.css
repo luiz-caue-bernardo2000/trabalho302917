@@ -27,7 +27,7 @@ footer{
 }
 #container{
     padding: 40px;
-    display: grid
+    display: grid;
     gap: 2rem;
 }
 
