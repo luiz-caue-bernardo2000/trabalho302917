@@ -16,3 +16,13 @@ function criaCartao(categoria,pergunta,resposta){
 
 container.appendChild(cartao);
 }
+
+function mostraResposta (card){
+    const resposta = Card.querySelector('resposta-cartao');
+    if(resposta.style.display==='nome'){
+        resposta.style.display='block';
+        else{
+            resposta.style.display='nome';
+        }
+    }
+}
